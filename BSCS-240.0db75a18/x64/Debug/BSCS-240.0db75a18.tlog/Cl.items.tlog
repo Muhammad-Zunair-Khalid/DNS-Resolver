@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\database_engine.cpp;C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\BSCS-240.0db75a18\x64\Debug\database_engine.obj
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\dns_cache.cpp;C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\BSCS-240.0db75a18\x64\Debug\dns_cache.obj
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\dns_client.cpp;C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\BSCS-240.0db75a18\x64\Debug\dns_client.obj
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\dns_protocol.cpp;C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\BSCS-240.0db75a18\x64\Debug\dns_protocol.obj
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\dns_record.cpp;C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\BSCS-240.0db75a18\x64\Debug\dns_record.obj
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\dns_server.cpp;C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\BSCS-240.0db75a18\x64\Debug\dns_server.obj
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\request_queue.cpp;C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\BSCS-240.0db75a18\x64\Debug\request_queue.obj
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\server_main.cpp;C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\BSCS-240.0db75a18\x64\Debug\server_main.obj
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\stats_tracker.cpp;C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\BSCS-240.0db75a18\x64\Debug\stats_tracker.obj
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\user_auth.cpp;C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\BSCS-240.0db75a18\x64\Debug\user_auth.obj

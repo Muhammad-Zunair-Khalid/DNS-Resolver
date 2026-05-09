@@ -1,0 +1,153 @@
+﻿  database_engine.cpp
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\utils.h(105,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'database_engine.cpp')
+  
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\hash_table.h(221,46): warning C4267: '-=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'database_engine.cpp')
+      C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\hash_table.h(221,46):
+      the template instantiation context (the oldest one first) is
+          C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\database_engine.cpp(10,23):
+          see reference to class template instantiation 'HashTable<std::string>' being compiled
+          C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\hash_table.h(213,1):
+          while compiling class template member function 'bool HashTable<std::string>::remove(const std::string &)'
+              C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\database_engine.cpp(105,24):
+              see the first reference to 'HashTable<std::string>::remove' in 'DatabaseEngine::deleteRecord'
+  
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\btree.h(470,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'database_engine.cpp')
+      C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\btree.h(470,20):
+      the template instantiation context (the oldest one first) is
+          C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\database_engine.cpp(9,22):
+          see reference to class template instantiation 'BTree<std::string,DNSRecord>' being compiled
+          C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\btree.h(533,84):
+          while compiling class template member function 'void BTree<std::string,DNSRecord>::insert(const KeyType &,const ValueType &)'
+          with
+          [
+              KeyType=std::string,
+              ValueType=DNSRecord
+          ]
+              C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\database_engine.cpp(45,23):
+              see the first reference to 'BTree<std::string,DNSRecord>::insert' in 'DatabaseEngine::addRecord'
+          C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\btree.h(535,20):
+          see reference to class template instantiation 'BTreeNode<KeyType,ValueType>' being compiled
+          with
+          [
+              KeyType=std::string,
+              ValueType=DNSRecord
+          ]
+          C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\btree.h(464,62):
+          while compiling class template member function 'void BTreeNode<KeyType,ValueType>::serialize(std::ofstream &)'
+          with
+          [
+              KeyType=std::string,
+              ValueType=DNSRecord
+          ]
+              C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\btree.h(677,24):
+              see the first reference to 'BTreeNode<KeyType,ValueType>::serialize' in 'BTree<std::string,DNSRecord>::saveToFile'
+          with
+          [
+              KeyType=std::string,
+              ValueType=DNSRecord
+          ]
+              C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\database_engine.cpp(194,27):
+              see the first reference to 'BTree<std::string,DNSRecord>::saveToFile' in 'DatabaseEngine::flush'
+  
+  dns_cache.cpp
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\hash_table.h(221,46): warning C4267: '-=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'dns_cache.cpp')
+      C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\hash_table.h(221,46):
+      the template instantiation context (the oldest one first) is
+          C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\dns_cache.cpp(7,17):
+          see reference to class template instantiation 'HashTable<std::string>' being compiled
+          C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\hash_table.h(213,1):
+          while compiling class template member function 'bool HashTable<std::string>::remove(const std::string &)'
+              C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\dns_cache.cpp(70,18):
+              see the first reference to 'HashTable<std::string>::remove' in 'DNSCache::remove'
+  
+  dns_client.cpp
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\utils.h(105,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'dns_client.cpp')
+  
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\dns_client.cpp(57,26): warning C4244: '=': conversion from 'SOCKET' to 'int', possible loss of data
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\dns_client.cpp(248,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  dns_protocol.cpp
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\dns_protocol.cpp(419,68): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  dns_record.cpp
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\dns_record.cpp(56,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\dns_record.cpp(71,23): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  dns_server.cpp
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\utils.h(105,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'dns_server.cpp')
+  
+  request_queue.cpp
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\request_queue.cpp(119,22): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  server_main.cpp
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\utils.h(105,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'server_main.cpp')
+  
+  stats_tracker.cpp
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\utils.h(105,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'stats_tracker.cpp')
+  
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\hash_table.h(262,25): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'stats_tracker.cpp')
+      C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\hash_table.h(262,25):
+      the template instantiation context (the oldest one first) is
+          C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\stats_tracker.cpp(76,23):
+          see reference to class template instantiation 'HashTable<DomainStat>' being compiled
+          C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\hash_table.h(256,1):
+          while compiling class template member function 'void HashTable<DomainStat>::update(const std::string &,const ValueType &)'
+          with
+          [
+              ValueType=DomainStat
+          ]
+              C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\stats_tracker.cpp(113,28):
+              see the first reference to 'HashTable<DomainStat>::update' in 'StatsTracker::recordQuery'
+  
+  user_auth.cpp
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\utils.h(105,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'user_auth.cpp')
+  
+C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\btree.h(470,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'user_auth.cpp')
+      C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\btree.h(470,20):
+      the template instantiation context (the oldest one first) is
+          C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\user_auth.cpp(27,20):
+          see reference to class template instantiation 'BTree<std::string,User>' being compiled
+          C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\btree.h(533,84):
+          while compiling class template member function 'void BTree<std::string,User>::insert(const KeyType &,const ValueType &)'
+          with
+          [
+              KeyType=std::string,
+              ValueType=User
+          ]
+              C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\user_auth.cpp(71,21):
+              see the first reference to 'BTree<std::string,User>::insert' in 'UserAuth::signup'
+          C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\btree.h(535,20):
+          see reference to class template instantiation 'BTreeNode<KeyType,ValueType>' being compiled
+          with
+          [
+              KeyType=std::string,
+              ValueType=User
+          ]
+          C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\btree.h(464,62):
+          while compiling class template member function 'void BTreeNode<KeyType,ValueType>::serialize(std::ofstream &)'
+          with
+          [
+              KeyType=std::string,
+              ValueType=User
+          ]
+              C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\btree.h(677,24):
+              see the first reference to 'BTreeNode<KeyType,ValueType>::serialize' in 'BTree<std::string,User>::saveToFile'
+          with
+          [
+              KeyType=std::string,
+              ValueType=User
+          ]
+              C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\user_auth.cpp(148,25):
+              see the first reference to 'BTree<std::string,User>::saveToFile' in 'UserAuth::saveToFile'
+  
+  Generating Code...
+  BSCS-24097-DNS-Resolver.vcxproj -> C:\Users\User\source\repos\BSCS-24097-DNS-Resolver\x64\Debug\BSCS-24097-DNS-Resolver.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
